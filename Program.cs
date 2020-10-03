@@ -16,6 +16,8 @@ namespace IMC
 
             double imc = peso / (altura * altura);
             Console.WriteLine($"IMC: {imc} kg/m²");
+            Console.WriteLine("Pressione qualquer tecla para sair");
+            Console.ReadKey();
         }
     }
 }
